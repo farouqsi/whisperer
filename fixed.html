@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Apple</title>
+<style>
+body {
+background-color: #eaeaea;
+}
+header {
+  background-color: #fff;  
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  color: black;
+  padding: 10px 20px;  
+  text-decoration: none;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product {
+  background-color: white;
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.product img {
+  width: 100%;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+form {
+  width: 300px;
+  padding: 20px;
+  margin: 20px auto;
+  background-color: white;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd; 
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<nav>
+<a href="#">Home</a>
+<a href="#">Products</a>
+<a href="#">Store</a>
+</nav>
+</header>
+
+<section>
+<div class="product">
+<img src="iphone.jpg" alt="phone">
+<h3>iPhone</h3>
+<p>Lorem ipsum...</p>
+<button>Learn More</button>
+</div>
+<div class="product">
+  <img src="macbook.jpg" alt="macbook">
+  <h3>MacBook</h3>
+  <p>Lorem ipsum...</p>
+  <button>Learn More</button>
+</div>
+</section>
+
+<footer>
+<p>Copyright 2021 Apple</p>
+</footer>
+
+<form>
+<h2>Contact Us</h2>
+
+<label for="name">Name:</label>
+<input type="text" id="name">
+
+<label for="email">Email:</label> 
+<input type="email" id="email">
+
+<label for="message">Message:</label>
+<textarea id="message"></textarea>
+
+<button type="submit">Submit</button>
+</form>
+
+</body>
+</html>
